@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTracker Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2196F3;
+        }
+
+        .header h1 {
+            color: #2196F3;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .header .updated {
+            color: #666;
+            font-size: 14px;
+        }
+
+        h2 {
+            color: #2196F3;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        h3 {
+            color: #1976D2;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .highlight {
+            background: #e3f2fd;
+            padding: 20px;
+            border-left: 4px solid #2196F3;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MedTracker Privacy Policy</h1>
+            <p class="updated">Last Updated: February 21, 2026</p>
+        </div>
+
+        <h2>Introduction</h2>
+        <p>MedTracker is developed by Scott's IT Solutions. We take your privacy seriously. This policy explains how MedTracker handles your medical information.</p>
+
+        <div class="highlight">
+            <h2>Data Collection</h2>
+            <p><strong>MedTracker collects ZERO data from you.</strong></p>
+            <p>We do not collect, transmit, store, or share any of your personal or medical information. Everything stays on your device.</p>
+        </div>
+
+        <h2>What Information MedTracker Stores</h2>
+        <p>MedTracker stores the following information <strong>locally on your device only</strong>:</p>
+        <ul>
+            <li>Person names and dates of birth</li>
+            <li>Medication information</li>
+            <li>Doctor contact information</li>
+            <li>Medical conditions</li>
+            <li>Allergy information</li>
+            <li>Appointment details</li>
+            <li>PDF documents you choose to export</li>
+        </ul>
+        <p><strong>This data never leaves your device unless you explicitly choose to export it.</strong></p>
+
+        <h2>Data Storage</h2>
+        <ul>
+            <li>All data is stored in a local SQLite database on your device</li>
+            <li>No cloud sync</li>
+            <li>No remote servers</li>
+            <li>No data transmission to Scott's IT Solutions or any third parties</li>
+            <li>Biometric security (fingerprint, face ID, or device PIN/password) is required to access the app and protects your data using your device's secure hardware</li>
+        </ul>
+
+        <h2>Permissions</h2>
+        <p>MedTracker may request the following permissions:</p>
+        
+        <h3>Biometric / Device Credentials - REQUIRED</h3>
+        <p><strong>Required to access MedTracker.</strong> You must authenticate using fingerprint, face ID, or your device PIN/password every time you open the app. This ensures your medical information remains private even if your phone is unlocked. Biometric data never leaves your device's secure hardware.</p>
+        
+        <h3>Camera - Optional</h3>
+        <p>Used for OCR scanning of prescription bottles and business cards. Images are processed locally on your device and are not saved or transmitted. You can use MedTracker without granting camera permission.</p>
+        
+        <h3>Calendar - Optional</h3>
+        <p>Only used if you choose to sync appointments to your device calendar. Your calendar data is not accessed or transmitted except for appointments you explicitly create.</p>
+        
+        <h3>Storage - Optional</h3>
+        <p>Only used for importing/exporting backup files that you explicitly choose to create.</p>
+
+        <h2>Exports and Backups</h2>
+        <p>When you export data:</p>
+        <ul>
+            <li>You control where the file goes (email, cloud storage, local storage, etc.)</li>
+            <li><strong>You choose between standard or encrypted exports</strong></li>
+            <li>Encrypted exports use AES-256 encryption with your password</li>
+            <li>Standard exports are unencrypted JSON or PDF files</li>
+            <li>We cannot access your exported files (encrypted or not)</li>
+        </ul>
+        
+        <div class="warning">
+            <p><strong>Important:</strong> Exported files remain wherever you store them (email, Google Drive, Downloads folder, etc.) even after you delete MedTracker. You are responsible for managing and deleting your exported backup files.</p>
+        </div>
+
+        <h3>We recommend using encrypted exports when:</h3>
+        <ul>
+            <li>Storing backups in cloud storage (Google Drive, Dropbox, etc.)</li>
+            <li>Sending backups via email</li>
+            <li>Sharing backups across devices</li>
+            <li>Any situation where you want additional security</li>
+        </ul>
+
+        <h3>Standard (unencrypted) exports are useful when:</h3>
+        <ul>
+            <li>Using our desktop HTML import tool</li>
+            <li>You need to manually edit the JSON file</li>
+            <li>Importing into other compatible systems</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>MedTracker uses:</p>
+        <ul>
+            <li><strong>Google ML Kit</strong> - For OCR text recognition from prescription bottles and business cards. All processing happens entirely on your device.</li>
+            <li><strong>Google Play Services</strong> - For app distribution and in-app purchases only.</li>
+        </ul>
+        <p>Neither service receives your medical data.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>MedTracker can be used to track children's medical information by parents/guardians. We do not collect any information from children.</p>
+
+        <h2>Data Deletion</h2>
+        <p>To delete your data stored within MedTracker:</p>
+        <ol>
+            <li>Uninstall MedTracker from your device</li>
+            <li>All data stored in the app is permanently deleted</li>
+        </ol>
+        
+        <div class="warning">
+            <p><strong>Note:</strong> If you have exported backup files (JSON or PDF), those files remain in the locations where you saved them (email, cloud storage, Downloads folder, etc.). You must manually delete those exported files if you no longer want them.</p>
+        </div>
+
+        <h2>Changes to Privacy Policy</h2>
+        <p>We may update this policy. Changes will be posted with a new "Last Updated" date.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about privacy?<br>
+        Email: <a href="mailto:scottysoftware@gmail.com">scottysoftware@gmail.com</a></p>
+
+        <h2>Your Rights</h2>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li>You own all your medical information</li>
+            <li>You can export it anytime</li>
+            <li>You can delete it anytime (both from the app and any exported files)</li>
+            <li>We never see or access your data</li>
+        </ul>
+
+        <div class="highlight" style="margin-top: 40px;">
+            <p style="text-align: center; font-size: 18px;"><strong>Summary: MedTracker is privacy-first. Your medical data stays on YOUR device, under YOUR control, forever.</strong></p>
+        </div>
+
+        <div class="footer">
+            <p><strong>Scott's IT Solutions</strong><br>
+            © 2026 All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
